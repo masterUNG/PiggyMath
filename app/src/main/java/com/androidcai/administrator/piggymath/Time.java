@@ -36,6 +36,7 @@ public class Time extends AppCompatActivity {
         intTrueAnswerArray = new int[5];
         setVauleTrueAnswer();
 
+
         objQuestion = new Question();
         objQuestion.setOnQuestionChageListener(new Question.OnQuestionChageListener() {
             @Override
